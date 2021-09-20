@@ -1,4 +1,5 @@
 from hello import add
 
-def test_add(x, y):
-    assert str(add(x, y)).isnumeric()
+
+def test_add():
+    assert str(add(1, 2)).isnumeric()
